@@ -1,1 +1,35 @@
-/* CSS */
+header {
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 100px;
+    z-index: 10;
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1em;
+        height: 100%;
+        
+        ul {
+            display: flex;
+            gap: 2em;
+            list-style: none;
+        }
+
+        .Logo {
+            color: black;
+        }
+    }
+}
+
+
+main {
+    height: 90vh; 
+
+
+
+}
